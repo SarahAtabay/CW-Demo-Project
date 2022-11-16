@@ -127,6 +127,13 @@
                 <elementReference>assign_Ad.Id</elementReference>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>assign_lead.Company</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Lead From Source</stringValue>
+            </value>
+        </assignmentItems>
         <connector>
             <targetReference>Create_Lead</targetReference>
         </connector>
